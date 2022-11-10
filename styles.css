@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+#title, #description {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+svg {
+    background-color: whitesmoke;
+}
+
+#svg-area {
+    min-width: 1000px;
+    min-height: 600px;
+}
+
+#tooltip {
+    position: absolute;
+    text-align: left;
+    padding: 0.2rem;
+    background: #ccc;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 0.7rem;
+}
